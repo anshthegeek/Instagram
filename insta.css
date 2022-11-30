@@ -1,0 +1,655 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+
+    background: #f8f8f8;
+
+    padding-top: 15px;
+    padding-left: 15px;
+
+
+}
+
+.sidebar {
+    position: relative;
+    width: 307px;
+    height: 100vh;
+    background: #f8f8f8;
+    z-index: 2;
+}
+
+.logo img {
+
+    width: 137px;
+    height: 41px;
+}
+
+.name img {
+    width: 13px;
+    height: 13px;
+    position: relative;
+    left:169px;
+    top: -10px;
+}
+
+.profile {
+    padding: 22px;
+}
+
+.profile-img img {
+    position: relative;
+    padding: 1px;
+    left: 73px;
+    border-radius: 522px;
+    width: 61px;
+    border: 2px solid rgb(160, 57, 57);
+    height: 57px;
+
+}
+
+.name h1 {
+    position: relative;
+    left: 98px;
+    top: 7px;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.span1 {
+    position: relative;
+    left: 87px;
+    font-family: cursive;
+    bottom: 10px;
+}
+
+.abt {
+
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: -21px;
+
+}
+
+.about h3 {
+    font-weight: bold;
+}
+
+.about {
+    padding-left: 42px;
+    position: relative;
+    right: 23px;
+    bottom: 17px;
+
+}
+
+.box {
+
+    font-family: cursive;
+
+}
+
+span {
+    font-family: cursive;
+}
+
+.add img {
+
+    width: 117px;
+    height: 52px;
+    position: relative;
+    left: 1382px;
+    border: 4px solid white;
+    bottom: 242px;
+    border-radius: 12px;
+    background-color: rgb(241, 82, 24);
+
+}
+
+/* .add h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 19px;
+    color: white;
+    font-weight: bold;
+    font-family:cursive
+
+align-items: center;
+font-size:21px;
+} */
+footer {
+    position: relative;
+    left: 1360px;
+    bottom: 283px;
+}
+
+p {
+
+    position: relative;
+    left: 1340px;
+    bottom: 303px;
+
+}
+
+#input {
+    position: relative;
+    left: 270px;
+    bottom: 341px;
+}
+
+.story {
+    position: relative;
+    left: 270px;
+    bottom: 351px;
+
+}
+
+.story h1 {
+    font-family: cursive;
+}
+
+#krtik img {
+    width: 63px;
+    height: 59px;
+    border-radius: 37px;
+    border: 2px solid rgb(160, 57, 57);
+    ;
+
+    position: relative;
+    right: 921px;
+    bottom: -1px;
+
+
+}
+
+#vk img {
+
+    width: 59px;
+    border: 2px solid rgb(160, 57, 57);
+    height: 59px;
+    border-radius: 37px;
+    position: relative;
+    left: 313px;
+    bottom: 363px;
+
+}
+
+#instaa img {
+    width: 61px;
+    height: 57px;
+    border-radius: 31px;
+    ;
+    border: 2px solid rgb(160, 57, 57);
+    position: relative;
+    bottom: 127px;
+    right: 813px;
+}
+
+#girll img {
+
+    width: 61px;
+    height: 57px;
+    border-radius: 31px;
+    ;
+    border: 2px solid rgb(160, 57, 57);
+    position: relative;
+    bottom: 188px;
+    right: 705px;
+
+}
+
+#boy img {
+    width: 61px;
+    height: 57px;
+    border-radius: 31px;
+    ;
+    border: 2px solid rgb(160, 57, 57);
+    position: relative;
+    bottom: 249px;
+    right: 397px;
+
+}
+
+#ks img {
+    width: 61px;
+    height: 57px;
+    border-radius: 31px;
+    ;
+    border: 2px solid rgb(160, 57, 57);
+    position: relative;
+    bottom: 371px;
+    right: 505px;
+}
+
+#shm img {
+    width: 61px;
+    height: 57px;
+    border-radius: 31px;
+    ;
+    border: 2px solid rgb(160, 57, 57);
+    position: relative;
+    bottom: 309px;
+    right: 605px;
+}
+
+#sachin img {
+
+    width: 61px;
+    height: 57px;
+    border-radius: 31px;
+    ;
+    border: 2px solid rgb(160, 57, 57);
+    position: relative;
+    bottom: 435px;
+    right: -19px;
+
+}
+
+#old img {
+
+    width: 61px;
+    height: 57px;
+    border-radius: 31px;
+    ;
+    border: 2px solid rgb(160, 57, 57);
+    position: relative;
+    bottom: 495px;
+    right: 87px;
+
+}
+
+#frnd img {
+
+    width: 61px;
+    height: 57px;
+    border-radius: 31px;
+    ;
+    border: 2px solid rgb(160, 57, 57);
+    position: relative;
+    bottom: 617px;
+    right: 187px;
+
+}
+
+#snap img {
+
+    width: 61px;
+    height: 57px;
+    border-radius: 31px;
+    ;
+    border: 2px solid rgb(160, 57, 57);
+    position: relative;
+    bottom: 557px;
+    right: 291px;
+
+}
+
+.status {
+
+    position: relative;
+    right: -83px;
+
+}
+
+#messi img {
+
+
+    width: 61px;
+    height: 57px;
+    border-radius: 31px;
+    ;
+    border: 2px solid rgb(160, 57, 57);
+    position: relative;
+    bottom: 671px;
+    right: 1131px;
+
+
+}
+
+.watch {
+
+    position: relative;
+    right: -1397px;
+    bottom: 293px;
+    font-weight: bold;
+
+}
+
+.watch i {
+    position: relative;
+    bottom: -2px;
+}
+
+.feed h4 {
+    position: relative;
+    bottom: 961px;
+    left: 37px;
+    font-family: cursive;
+}
+
+.feed img {
+
+    position: relative;
+    bottom: 937px;
+    left: 5px;
+    width: 17px;
+
+}
+
+
+.noti h4 {
+    position: relative;
+    bottom: 961px;
+    left: 37px;
+    font-family: cursive;
+}
+
+.noti i {
+
+    position: relative;
+    bottom: 937px;
+    left: 5px;
+    width: 17px;
+
+}
+
+.ex h4 {
+    position: relative;
+    bottom: 961px;
+    left: 37px;
+    font-family: cursive;
+}
+
+.ex i {
+
+    position: relative;
+    bottom: 937px;
+    left: 5px;
+    width: 17px;
+
+}
+
+.mesg h4 {
+    position: relative;
+    bottom: 961px;
+    left: 37px;
+    font-family: cursive;
+}
+
+.mesg i {
+
+    position: relative;
+    bottom: 937px;
+    left: 5px;
+    width: 17px;
+
+}
+
+.dm h4 {
+    position: relative;
+    bottom: 961px;
+    left: 37px;
+    font-family: cursive;
+}
+
+.dm i {
+
+    position: relative;
+    bottom: 937px;
+    left: 5px;
+    width: 17px;
+
+}
+
+.stats h4 {
+    position: relative;
+    bottom: 961px;
+    left: 37px;
+    font-family: cursive;
+}
+
+.stats i {
+
+    position: relative;
+    bottom: 937px;
+    left: 5px;
+    width: 17px;
+
+}
+
+.setting h4 {
+    position: relative;
+    bottom: 961px;
+    left: 37px;
+    font-family: cursive;
+}
+
+.setting i {
+
+    position: relative;
+    bottom: 937px;
+    left: 5px;
+    width: 17px;
+
+}
+
+.log h4 {
+    position: relative;
+    bottom: 961px;
+    left: 37px;
+    font-family: cursive;
+}
+
+.log i {
+
+    position: relative;
+    bottom: 937px;
+    left: 5px;
+    width: 17px;
+
+}
+
+
+.fd h1 {
+
+    position: relative;
+    bottom: 1293px;
+    left: 311px;
+    font-family: cursive;
+}
+
+.latest {
+    position: relative;
+    bottom: 1337px;
+    left: 1365px;
+    display: flex;
+    font-family: cursive;
+}
+
+.latest h4 {
+
+    font-family: cursive;
+
+}
+
+.latest span {
+
+    font-family: cursive;
+
+}
+
+#virat img {
+
+    position: relative;
+    bottom: 1003px;
+    left: -1042px;
+    width: 297px;
+    height: 331px;
+    border-radius: 13px;
+
+}
+
+#mount img {
+
+    position: relative;
+    bottom: 1338px;
+    left: -633px;
+    width: 297px;
+    height: 331px;
+    border-radius: 13px;
+
+}
+
+#aryan img {
+
+    position: relative;
+    bottom: 1673px;
+    left: -227px;
+    width: 297px;
+    height: 331px;
+    border-radius: 13px;
+}
+.kol {
+
+    
+   position: relative;   
+   bottom:1999px;
+   left:342px;
+
+   
+
+}
+.kol h4{
+    font-size:9px;
+}
+
+.kol img{
+
+    width: 12px;
+    height: 11px;
+    position: relative;
+    left: 51px;
+    bottom: 15px;
+
+}
+
+.lk{
+
+     position: relative; 
+     bottom: 37px;
+     left: 149px;
+     font-size: 12px;
+
+
+}
+
+#kohli img{
+
+   position: relative;   
+   bottom: 1673px;
+   left:-1041px;
+   width: 37px;
+   height: 33px;
+   border: 2px solid rgb(160, 57, 57);
+   border-radius:39px;
+  
+    
+}
+
+
+.alice{
+
+  position: relative;
+  bottom:61px;
+  left: 487px;
+
+}
+.alice img{
+  border: 2px solid rgb(160, 57, 57);
+  border-radius:39px;
+
+  width: 37px;
+  height: 33px;
+  position: relative;
+  left: -121px;
+  bottom:9px;
+
+}
+
+ .logg img{
+
+      width:12px;
+      height: 11px;
+      border: none;
+      position: relative;
+      left: -51px;
+      bottom:39px;
+
+}
+ 
+.alice h4{
+
+  position: relative;
+  left: -77px;
+  bottom:-12px;
+
+}
+
+ .lk1{
+   position: relative;
+
+   bottom: 59px;
+   left:87px;
+   font-size: 12px;
+}
+
+.karnm{
+
+    position: relative;
+    bottom:79px;
+    left:401px;
+
+}
+
+.kia{
+
+  position: relative;
+  bottom: 111px;
+  left:507px;
+
+   
+
+
+
+}
+
+.kia img{
+
+     width: 12px;
+     height: 11px;
+     border: none;
+
+}
+ 
+
+ .lk2{
+
+     position: relative;
+     bottom: 141px;
+     left:479px;
+     font-size: 12px;
+
+ }
